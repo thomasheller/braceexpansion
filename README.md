@@ -10,9 +10,9 @@ Feel free to send a PR.
 
 # Usage:
 
-```
+```go
 import (
-	"github.com/thomasheller/braceexpansion"
+	be "github.com/thomasheller/braceexpansion"
 	"fmt"
 )
 
@@ -24,5 +24,11 @@ func main() {
 	for _, s := range tree.Expand() {
 		fmt.Println(s)
 	}
+	
+	// Output:
+	// a1
+	// a2
+	// b1
+	// b2
 }
 ```
