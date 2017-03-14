@@ -8,7 +8,7 @@ Supports some specialties required by
 Numeric ranges are currently not supported, as I didn't need them.
 Feel free to send a PR.
 
-# Usage:
+## Usage:
 
 ```go
 import (
