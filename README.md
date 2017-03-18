@@ -1,5 +1,9 @@
 # braceexpansion
 
+[![Build Status](https://travis-ci.org/thomasheller/braceexpansion.svg?branch=master)](https://travis-ci.org/thomasheller/braceexpansion)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thomasheller/braceexpansion)](https://goreportcard.com/report/github.com/thomasheller/braceexpansion)
+[![Coverage Status](https://coveralls.io/repos/github/thomasheller/braceexpansion/badge.svg?branch=master)](https://coveralls.io/github/thomasheller/braceexpansion?branch=master)
+
 Shell brace expansion implemented in Go (golang).
 
 Supports some specialties required by
