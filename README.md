@@ -12,7 +12,23 @@ Supports some specialties required by
 Numeric ranges are currently not supported, as I didn't need them.
 Feel free to send a PR.
 
-## Usage:
+## Build
+
+```sh
+$ cd cmd && go build -o be
+```
+
+## Usage (command line):
+
+```sh
+$ be '{a,b}{1,2}'
+a1
+a2
+b1
+b2
+```
+
+## Usage (library):
 
 ```go
 import (
@@ -21,7 +37,7 @@ import (
 )
 
 func main() {
-	tree, err := be.New.Parse("{a,b}{1,2}")
+	tree, err := be.New().Parse("{a,b}{1,2}")
 	if err != nil {
 		panic(err)
 	}
